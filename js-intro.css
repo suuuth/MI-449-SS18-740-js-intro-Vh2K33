@@ -30,7 +30,7 @@ section.drumkit {
   cursor: pointer;
 }
 
-.hat {
+#hat {
   position: absolute;
   bottom: 280px;
   left: 100px;
@@ -46,7 +46,7 @@ section.drumkit {
   left: 195px;
 }
 
-.snare {
+#snare {
   width: 175px!important;
   height: 100px;
   border-radius: 100%;
@@ -55,8 +55,7 @@ section.drumkit {
   left: 230px;
 }
 
-.crash1 {
-  width: 100px;
+#crash1 {
   height: 100px;
   border-radius: 100%;
   transform: rotate(3deg);
@@ -65,7 +64,7 @@ section.drumkit {
   left: 280px;
 }
 
-.lefttom {
+#lefttom {
   width: 90px!important;
   height: 80px;
   border-radius: 100%;
@@ -74,7 +73,7 @@ section.drumkit {
   left: 400px;
 }
 
-.kick {
+#kick {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -85,7 +84,7 @@ section.drumkit {
   border-radius: 50%;
 }
 
-.righttom {
+#righttom {
   width: 110px!important;
   height: 90px;
   border-radius: 100%;
@@ -94,8 +93,7 @@ section.drumkit {
   right: 360px;
 }
 
-.crash2 {
-  width: 105px;
+#crash2 {
   height: 120px;
   border-radius: 100%;
   transform: rotate(-7deg);
@@ -104,17 +102,15 @@ section.drumkit {
   right: 275px;
 }
 
-.floortom {
+#floortom {
   position: absolute;
   right: 210px;
   bottom: 160px;
-  width: 18%;
   border-radius: 100%;
   transform: rotate(-5deg);
 }
 
-.ride {
-  width: 100px;
+#ride {
   height: 115px;
   border-radius: 100%;
   transform: rotate(-7deg);
