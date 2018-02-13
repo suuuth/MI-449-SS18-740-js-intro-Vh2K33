@@ -1,13 +1,13 @@
 //these are organized by elements from left to right
-var hat = new Audio('Assets/hihat.wav');
-var snare = new Audio('Assets/snare.wav');
-var kick = new Audio('Assets/kick.wav');
-var ride = new Audio('Assets/ride.wav');
-var fTom = new Audio('Assets/boom.wav');
-var openhat = new Audio('Assets/openhat.wav');
-var tink = new Audio('Assets/tink.wav');
-var clap = new Audio('Assets/clap.wav');
-var tom = new Audio('Assets/tom.wav');
+var hat = document.getElementById('hihat_Audio');
+var snare = document.getElementById('snare_Audio');
+var kick = document.getElementById('kick_Audio');
+var ride = document.getElementById('ride_Audio');
+var fTom = document.getElementById('fTom_Audio');
+var openhat = document.getElementById('openhat_Audio');
+var tink = document.getElementById('tink_Audio');
+var clap = document.getElementById('clap_Audio');
+var tom = document.getElementById('tom_Audio');
 
 var playHat = document.getElementById('hat');
 var playSnare = document.getElementById('snare');

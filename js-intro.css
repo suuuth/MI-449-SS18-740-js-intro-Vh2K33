@@ -118,11 +118,3 @@ section.drumkit {
   top: 175px;
   right: 125px;
 }
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: -150px;
-  left: 0;
-  z-index: -1;
-}
